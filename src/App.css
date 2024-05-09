@@ -58,6 +58,39 @@ video {
   height: auto; /* Maintain aspect ratio */
 }
 
+.next-steps-container {
+  text-align: left;  /* Aligns the text to the left */
+  width: 80%;        /* Sets a max width to avoid overly long lines on large screens */
+  max-width: 600px;  /* Further ensures text lines don’t get too long */
+  margin: 40px auto; /* Centers the container horizontally and adds vertical spacing */
+  padding: 20px;     /* Adds some padding inside the container */
+  background-color: #333; /* Optional: adds a background color */
+  color: #fff;       /* Ensures text color is white for contrast */
+  border-radius: 8px; /* Optional: rounds the corners of the container */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
+}
+
+.next-steps-container h1 {
+  color: #abd1c6;  /* Light blue color for the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.next-steps-container p, .next-steps-container ol {
+  font-size: 16px; /* Sets a standard readable font size */
+  line-height: 1.6; /* Increases line spacing for better readability */
+  margin-bottom: 20px; /* Adds space below paragraphs and list */
+}
+
+.next-steps-container li {
+  margin-bottom: 10px; /* Adds space between list items */
+}
+
+.next-steps-container img{
+  height: auto;
+  width: 500px;
+  margin: auto;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   h1 {
