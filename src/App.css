@@ -85,11 +85,13 @@ video {
   margin-bottom: 10px; /* Adds space between list items */
 }
 
-.next-steps-container img{
-  height: auto;
-  width: 500px;
-  margin: auto;
+.next-steps-container img {
+  max-width: 100%; /* Ensures the image is never wider than its container */
+  width: 100%;     /* Ensures the image fills the container, adjust as necessary */
+  height: auto;    /* Keeps the aspect ratio intact */
+  margin: auto;    /* Centers the image horizontally */
 }
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
