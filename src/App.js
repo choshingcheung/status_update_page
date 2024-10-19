@@ -11,8 +11,8 @@ function App() {
         <Routes>
           <Route path="/" element={
             <header className="App-header">
-              <h1>ISL Status Update Portal</h1>
-              <p>Welcome to ISL's status update portal. Click below to view the latest update.</p>
+              <h1>Status Update Portal</h1>
+              <p>Welcome to status update portal. Click below to view the latest update.</p>
               <Link to="/video">
                 <button>Show Status Update</button>
               </Link>
