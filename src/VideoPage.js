@@ -6,7 +6,7 @@ const VideoPage = () => {
     <div className="video-container">
       <h1>We've prepared a video for you...</h1>
       <video autoPlay muted controls>
-        <source src="video.mp4" type="video/mp4" />
+        <source src="" type="video/mp4" /> 
         Your browser does not support the video tag.
       </video>
       <Link to="/next-steps">
